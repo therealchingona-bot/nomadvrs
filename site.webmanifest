@@ -1,0 +1,27 @@
+{
+  "name": "Nomad Vacation Rentals",
+  "short_name": "Nomad",
+  "description": "The direct way to stay.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FAF8F4",
+  "theme_color": "#1F3D33",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

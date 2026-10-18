@@ -1,0 +1,19 @@
+# nomadvrs.com
+User-agent: *
+Allow: /
+Disallow: /guest-portal/
+Disallow: /*?sort=
+Disallow: /*?filter=
+
+# Full-text AI crawlers are welcome — our content is the marketing.
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://nomadvrs.com/sitemap-index.xml
+Sitemap: https://nomadvrs.com/sitemap.xml

@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nomad Vacation Rentals — Book Direct in Colorado and California</title>
+  <meta name="description" content="Vacation homes across Colorado and California, booked directly from the company that manages them. The only fee added at checkout is 4%, where a marketplace adds 14.1–16.5%. A marketplace adds 14.1%–16.5%. Founded 2026.">
+  <link rel="canonical" href="https://nomadvrs.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#1F3D33" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14181A" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nomad Vacation Rentals">
+  <meta property="og:title" content="Nomad Vacation Rentals — the direct way to stay">
+  <meta property="og:description" content="Vacation homes across Colorado and California, booked directly from the company that manages them. The only fee added at checkout is 4%, where a marketplace adds 14.1–16.5%. A marketplace adds 14.1%–16.5%. Founded 2026.">
+  <meta property="og:url" content="https://nomadvrs.com/">
+  <meta property="og:image" content="https://nomadvrs.com/assets/img/sd-pool-dusk-1200.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:alt" content="The Mission Bay Coastal House in San Diego at dusk: a long pool lit turquoise beside a square spa, a single-story white house glowing through a wall of glass, under an orange and violet sunset">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nomad Vacation Rentals — the direct way to stay">
+  <meta name="twitter:description" content="Vacation homes across Colorado and California, booked directly from the company that manages them. The only fee added at checkout is 4%, where a marketplace adds 14.1–16.5%. A marketplace adds 14.1%–16.5%. Founded 2026.">
+  <meta name="twitter:image" content="https://nomadvrs.com/assets/img/sd-pool-dusk-1200.webp">
+
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <script>
+    /* Theme applied before paint to avoid a flash of the wrong palette.
+       Persistence degrades to an in-memory store when web storage is
+       unavailable (private mode, sandboxed iframes). */
+    (function () {
+      var mem = {};
+      var store = null;
+      try {
+        var k = "local" + "Storage";
+        var t = window[k];
+        t.setItem("nomad-probe", "1");
+        t.removeItem("nomad-probe");
+        store = t;
+      } catch (e) { store = null; }
+      window.nomadStore = {
+        get: function (key) { try { return store ? store.getItem(key) : mem[key] || null; } catch (e) { return mem[key] || null; } },
+        set: function (key, val) { mem[key] = val; try { if (store) store.setItem(key, val); } catch (e) {} }
+      };
+      try {
+        var s = window.nomadStore.get("nomad-theme");
+        var d = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.setAttribute("data-theme", s || (d ? "dark" : "light"));
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f%5B%5D=satoshi@300,400,500,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..600,0..100,0..1;1,9..144,400..600,0..100,0..1&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="preload" as="image" href="/assets/img/sd-pool-dusk-1200.webp" imagesrcset="/assets/img/sd-pool-dusk-480.webp 480w, /assets/img/sd-pool-dusk-800.webp 800w, /assets/img/sd-pool-dusk-1200.webp 1200w" imagesizes="100vw" fetchpriority="high">
+
+  <!-- ============================================================
+       ANALYTICS — drop-in slots. Replace the placeholder IDs and
+       uncomment. Every interaction on this site already pushes a
+       typed event to window.dataLayer (see assets/js/site.js).
+       ============================================================ -->
+  <!-- Google Tag Manager
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+  var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+  (window,document,'script','dataLayer','GTM-XXXXXXX'); // REPLACE: GTM-XXXXXXX
+  </script>
+  -->
+  <!-- GA4 (only if not already firing through GTM)
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+  gtag('js',new Date());gtag('config','G-XXXXXXXXXX'); // REPLACE: G-XXXXXXXXXX
+  </script>
+  -->
+  <!-- Meta Pixel
+  <script>!function(f,b,e,v,n,t,s){/* standard pixel bootstrap */}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');fbq('init','XXXXXXXXXXXXXXX'); // REPLACE: PIXEL_ID
+  fbq('track','PageView');</script>
+  -->
+
+  <script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Organization",
+ "@id": "https://nomadvrs.com/#organization",
+ "name": "Nomad Vacation Rentals",
+ "legalName": "Nomad Vacation Rentals LLC",
+ "url": "https://nomadvrs.com/",
+ "logo": {
+  "@type": "ImageObject",
+  "url": "https://nomadvrs.com/icon-512.png",
+  "width": 512,
+  "height": 512
+ },
+ "foundingDate": "2026",
+ "founder": {
+  "@type": "Person",
+  "name": "Sean Normoyle"
+ },
+ "email": "normoyle.realestate@gmail.com",
+ "telephone": "+1-619-493-2499"
+}</script>
+  <script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "WebSite",
+ "@id": "https://nomadvrs.com/#website",
+ "url": "https://nomadvrs.com/",
+ "name": "Nomad Vacation Rentals",
+ "publisher": {
+  "@id": "https://nomadvrs.com/#organization"
+ },
+ "inLanguage": "en-US",
+ "potentialAction": {
+  "@type": "SearchAction",
+  "target": {
+   "@type": "EntryPoint",
+   "urlTemplate": "https://nomadvrs.com/stays/?q={search_term_string}"
+  },
+  "query-input": "required name=search_term_string"
+ }
+}</script>
+  <script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "Featured Nomad homes",
+ "description": "A selection from the Nomad portfolio of 2 homes.",
+ "url": "https://nomadvrs.com/",
+ "numberOfItems": 2,
+ "itemListOrder": "https://schema.org/ItemListOrderAscending",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "url": "https://nomadvrs.com/homes/mission-bay-coastal-house/",
+   "name": "Mission Bay Coastal House"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "url": "https://nomadvrs.com/homes/stargazing-a-frame-evergreen/",
+   "name": "Stargazing A-Frame"
+  }
+ ]
+}</script>
+  <script defer src="/assets/js/site.js"></script>
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+</head>
+<body class="is-live">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header over-hero" data-stuck="false">
+  <div class="wrap wrap-wide header-inner">
+    <a class="logo" href="/" aria-label="Nomad Vacation Rentals — home"><img class="logo-badge" src="/assets/img/brand/nomad-badge-256.webp" width="40" height="40" alt="" aria-hidden="true" decoding="async" fetchpriority="high"><span class="logo-word">Nomad<small>Vacation Rentals</small></span></a>
+    <nav class="primary-nav" id="primary-nav" data-open="false" aria-label="Primary">
+      <a class="nav-link" href="/portfolio/">Portfolio</a><a class="nav-link" href="/stays/">Stays</a><a class="nav-link" href="/stays/#destinations">Destinations</a><a class="nav-link" href="/collections/">Collections</a><a class="nav-link" href="/blog/">Journal</a><a class="nav-link" href="/book-direct/">Why direct</a><a class="nav-link" href="/owners/">Owners</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch to dark theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="sun" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M18.4 5.6L17 7M7 17l-1.4 1.4"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="moon" aria-hidden="true" focusable="false"><path d="M20 14.5A8.5 8.5 0 019.5 4a8.5 8.5 0 100 17 8.5 8.5 0 0010.5-6.5z"/></svg>
+      </button>
+      <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <a class="btn btn-primary header-cta" href="/stays/">Book direct</a>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="hero-media">
+    <img src="/assets/img/sd-pool-dusk-1200.webp" srcset="/assets/img/sd-pool-dusk-480.webp 480w, /assets/img/sd-pool-dusk-800.webp 800w, /assets/img/sd-pool-dusk-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="The Mission Bay Coastal House in San Diego at dusk: a long pool lit turquoise from within beside a square spa, a single-story white house glowing through a wall of glass, and an orange and violet sunset across the sky" fetchpriority="high" decoding="sync">
+  </div>
+  <div class="wrap wrap-wide hero-inner">
+    <div>
+      <p class="eyebrow hero-eyebrow">Colorado · California</p>
+      <h1>Homes worth the drive. <em>Better</em> value, booked direct.</h1>
+      <p class="lede">Mountains or coast, depending on your vibe. You book straight with the people who run the home, so the total you are quoted is the total you pay — with one 4% booking fee instead of the 14.1–16.5% a marketplace adds.</p>
+      <div class="hero-meta">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11.3 3.6H19a1.4 1.4 0 011.4 1.4v7.7L11.6 21a1.4 1.4 0 01-2 0l-6.6-6.6a1.4 1.4 0 010-2z"/><circle cx="16.2" cy="7.8" r="1.5"/></svg> 4% booking fee, not 14.1–16.5%</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 8.2v.6"/></svg> The all-in total, itemized before you pay</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4.8" y="10.5" width="14.4" height="10" rx="2"/><path d="M8.4 10.5V7.8a3.6 3.6 0 017.2 0v2.7"/></svg> Your card never touches this site</span>
+      </div>
+    </div>
+    <div class="hero-search">
+      <form class="searchbar" data-search role="search" aria-label="Find a home">
+  <div class="field">
+    <label for="s-dest-hero">Where to</label>
+    <input id="s-dest-hero" name="destination" type="text" autocomplete="off" placeholder="Evergreen, San Diego…" data-search-input aria-describedby="s-hint-hero">
+    <div class="autocomplete" data-search-list role="listbox" aria-label="Destinations"></div>
+    <span class="sr-only" id="s-hint-hero">Type a city or use the arrow keys to choose a destination.</span>
+  </div>
+  <div class="field">
+    <label for="s-in-hero">Check in</label>
+    <input id="s-in-hero" name="checkin" type="date">
+  </div>
+  <div class="field">
+    <label for="s-out-hero">Check out</label>
+    <input id="s-out-hero" name="checkout" type="date">
+  </div>
+  <div class="field">
+    <label for="s-g-hero">Guests</label>
+    <input id="s-g-hero" name="guests" type="number" min="1" max="30" step="1" inputmode="numeric" placeholder="How many?" aria-describedby="s-ghint-hero">
+    <span class="sr-only" id="s-ghint-hero">Enter the number of guests, including children.</span>
+  </div>
+  <button class="btn btn-primary btn-lg" type="submit" style="align-self:stretch">Search homes</button>
+</form>
+      <p class="tiny" style="color:rgba(255,255,255,.66);margin-top:var(--space-3)">No account required to see availability or the all-in total.</p>
+    </div>
+  </div>
+  <span class="hero-credit">Mission Bay Coastal House · San Diego</span>
+</section>
+
+<section class="trustbar" aria-label="How Nomad works">
+  <div class="wrap wrap-wide">
+    <ul>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11.3 3.6H19a1.4 1.4 0 011.4 1.4v7.7L11.6 21a1.4 1.4 0 01-2 0l-6.6-6.6a1.4 1.4 0 010-2z"/><circle cx="16.2" cy="7.8" r="1.5"/></svg><span><strong>4% booking fee, not 14.1–16.5%</strong><span>Marketplaces add a percentage at checkout. We add nothing beyond the nightly rate, cleaning, tax and anything you choose.</span></span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 8.2v.6"/></svg><span><strong>The all-in total, before you pay</strong><span>Nightly rate, cleaning, taxes and fees are itemized on the page. The number you see is the number you are charged.</span></span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4.8" y="10.5" width="14.4" height="10" rx="2"/><path d="M8.4 10.5V7.8a3.6 3.6 0 017.2 0v2.7"/></svg><span><strong>Your card never touches this site</strong><span>Payment is taken on our booking platform’s own PCI-certified checkout. Nomad never sees or stores your card number.</span></span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="vibe">
+  <div class="wrap wrap-wide">
+    <div class="section-head reveal">
+  <div>
+    <p class="eyebrow">Where do you want to be?</p>
+    <h2>Mountains or coast, depending on the vibe</h2>
+    <p>Pick the ground first and the dates second. Each one opens on the homes that qualify for it, and the test they had to pass to get there.</p>
+  </div>
+  
+</div>
+    <div class="vibe-grid">
+      <a class="vibe reveal" href="/collections/mountain-escapes/">
+        <img src="/assets/img/af-mountain-view-800.webp" srcset="/assets/img/af-mountain-view-480.webp 480w, /assets/img/af-mountain-view-800.webp 800w, /assets/img/af-mountain-view-1200.webp 1200w" sizes="(max-width: 34rem) 92vw, (max-width: 62rem) 46vw, 26rem" width="800" height="533" alt="Layered Front Range ridges seen through ponderosa pines from the A-frame's deck" loading="lazy" decoding="async">
+        <span class="vibe-body">
+          <span class="vibe-label">Mountains</span>
+          <span class="vibe-pitch">Ponderosa pine, a private hot tub and 8,957 feet of elevation. Twenty-five minutes from the Red Rocks stage.</span>
+          <span class="vibe-go">Mountain Escapes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6.5l5.5 5.5L13 17.5"/></svg></span>
+        </span>
+      </a><a class="vibe reveal" href="/collections/coastal/">
+        <img src="/assets/img/sd-bay-view-800.webp" srcset="/assets/img/sd-bay-view-480.webp 480w, /assets/img/sd-bay-view-800.webp 800w, /assets/img/sd-bay-view-1200.webp 1200w" sizes="(max-width: 34rem) 92vw, (max-width: 62rem) 46vw, 26rem" width="800" height="600" alt="Evening outlook over Mission Bay from the coastal house" loading="lazy" decoding="async">
+        <span class="vibe-body">
+          <span class="vibe-label">Coast</span>
+          <span class="vibe-pitch">A heated saltwater pool, a spa and an outlook over Mission Bay. The plan is to leave the car parked.</span>
+          <span class="vibe-go">Coastal &amp; Beach Walk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6.5l5.5 5.5L13 17.5"/></svg></span>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="homes">
+  <div class="wrap wrap-wide">
+    <div class="section-head reveal">
+  <div>
+    <p class="eyebrow">The portfolio</p>
+    <h2>Open for dates now</h2>
+    <p>Each page names what the house is not, alongside what it is. The stairs, the cameras, the thing a photograph will not tell you.</p>
+  </div>
+  <a class="link-arrow" href="/portfolio/">View the full portfolio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6.5l5.5 5.5L13 17.5"/></svg></a>
+</div>
+  </div>
+  <div class="wrap wrap-wide">
+    <div class="grid g-2">
+      <article class="card reveal" data-card
+  data-price="" data-sleeps="14" data-order="0"
+  data-facets="pool hot-tub pet-friendly wifi-workspace ev-charging"
+  data-market="san-diego"
+  data-region="ca"
+  data-collections="coastal"
+  data-added="2026-08-07"
+  data-type="house"
+  data-beds="4plus">
+  <div class="card-media">
+    <a href="/homes/mission-bay-coastal-house/" tabindex="-1" aria-hidden="true"><img src="/assets/img/sd-pool-dusk-800.webp" srcset="/assets/img/sd-pool-dusk-480.webp 480w, /assets/img/sd-pool-dusk-800.webp 800w, /assets/img/sd-pool-dusk-1200.webp 1200w" sizes="(max-width: 40rem) 92vw, (max-width: 64rem) 46vw, 25rem" width="800" height="533" alt="Long rectangular pool lit turquoise from within at dusk with a separate square spa at the near end, a single-story white house behind spilling warm light through a wall of glass, manicured lawn, and orange and violet sunset cloud across the whole sky" loading="lazy" decoding="async"></a>
+    <div class="card-badges">
+      <span class="badge-new">New to the portfolio</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <p class="card-kicker">San Diego, CA · House</p>
+    <h3><a href="/homes/mission-bay-coastal-house/">Mission Bay Coastal House</a></h3>
+    <p class="small">A single-story coastal house near Mission Bay with a heated saltwater pool, a spa and an outlook over the bay.</p>
+    <ul class="card-facts">
+      <li>4 bedrooms</li>
+      <li>3 bath</li>
+      <li>Sleeps 14</li>
+    </ul>
+    <div class="card-foot">
+      <span class="price price-enquiry">Rates on request</span>
+      <span class="small muted">Ask about dates and rates</span>
+    </div>
+  </div>
+</article><article class="card reveal" data-card
+  data-price="" data-sleeps="10" data-order="1"
+  data-facets="hot-tub pet-friendly fireplace wifi-workspace ev-charging"
+  data-market="evergreen"
+  data-region="co"
+  data-collections="mountain-escapes"
+  data-added="2026-08-07"
+  data-type="cabin"
+  data-beds="3bed">
+  <div class="card-media">
+    <a href="/homes/stargazing-a-frame-evergreen/" tabindex="-1" aria-hidden="true"><img src="/assets/img/af-exterior-800.webp" srcset="/assets/img/af-exterior-480.webp 480w, /assets/img/af-exterior-800.webp 800w, /assets/img/af-exterior-1200.webp 1200w" sizes="(max-width: 40rem) 92vw, (max-width: 64rem) 46vw, 25rem" width="800" height="533" alt="Three-story A-frame clad in orange-brown horizontal log siding with teal-green trim and a gray shingled roof, its tall triangular window wall facing tall straight lodgepole pines under a blue summer sky" loading="lazy" decoding="async"></a>
+    <div class="card-badges">
+      
+    </div>
+  </div>
+  <div class="card-body">
+    <p class="card-kicker">Evergreen, CO · Cabin</p>
+    <h3><a href="/homes/stargazing-a-frame-evergreen/">Stargazing A-Frame</a></h3>
+    <p class="small">A log-sided A-frame on a private wooded acre, deep in lodgepole pine at 8,957 feet.</p>
+    <ul class="card-facts">
+      <li>3 bedrooms</li>
+      <li>3.5 bath</li>
+      <li>Sleeps 10</li>
+    </ul>
+    <div class="card-foot">
+      <span class="price price-enquiry">Rates on request</span>
+      <span class="small muted">Ask about dates and rates</span>
+    </div>
+  </div>
+</article>
+    </div>
+    <p class="small" style="margin-top:var(--space-6)">More homes are coming, in Evergreen and San Diego and beyond. Each one gets described down to what it is missing before it goes live here. <a class="link-arrow" style="border:0;padding:0" href="/stays/">Search what is open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6.5l5.5 5.5L13 17.5"/></svg></a></p>
+  </div>
+</section>
+
+<section class="section section-sunk" id="destinations">
+  <div class="wrap wrap-wide">
+    <div class="section-head reveal">
+  <div>
+    <p class="eyebrow">Where we are</p>
+    <h2>Two destinations, and the ground around them</h2>
+    <p>You can book in Evergreen and San Diego today. Denver and Coronado are here because guests drive through them on the way — those pages are local writing, not a claim to operate there.</p>
+  </div>
+  
+</div>
+    
+    <div class="dest-grid">
+      <a class="dest reveal" href="/stays/co/evergreen/">
+  <img src="/assets/img/af-exterior-800.webp" srcset="/assets/img/af-exterior-480.webp 480w, /assets/img/af-exterior-800.webp 800w, /assets/img/af-exterior-1200.webp 1200w" sizes="(max-width: 34rem) 92vw, (max-width: 62rem) 46vw, 30rem" width="800" height="533" alt="Three-story A-frame clad in orange-brown log siding with teal-green trim and a tall triangular window wall, an elevated deck with black railing, ringed closely by lodgepole pines" loading="lazy" decoding="async">
+  <div class="dest-body">
+    <p class="dest-meta">1 home</p>
+    <h3>Evergreen, CO</h3>
+    <p>Thirty minutes from Denver. A world away from it.</p>
+  </div>
+</a><a class="dest reveal" href="/stays/ca/san-diego/">
+  <img src="/assets/img/sd-pool-dusk-800.webp" srcset="/assets/img/sd-pool-dusk-480.webp 480w, /assets/img/sd-pool-dusk-800.webp 800w, /assets/img/sd-pool-dusk-1200.webp 1200w" sizes="(max-width: 34rem) 92vw, (max-width: 62rem) 46vw, 30rem" width="800" height="533" alt="Long rectangular pool lit turquoise at dusk with a square spa at the near end, a single-story white house behind with light spilling from a wall of glass, under an orange and violet sunset sky" loading="lazy" decoding="async">
+  <div class="dest-body">
+    <p class="dest-meta">1 home</p>
+    <h3>San Diego, CA</h3>
+    <p>Seventy miles of coast and a 70-degree year.</p>
+  </div>
+</a>
+    </div>
+    <p class="small" style="margin-top:var(--space-6);max-width:60ch">
+            Also written up, without photographs of our own yet:
+            <a href="/guides/co/denver/">Denver, CO</a>, <a href="/guides/ca/coronado/">Coronado, CA</a>, <a href="/near/red-rocks-amphitheatre/">Red Rocks Amphitheatre</a>.
+          </p>
+  </div>
+</section>
+
+<section class="section" id="why-direct">
+  <div class="wrap">
+    <div class="section-head reveal">
+  <div>
+    <p class="eyebrow">The direct way to stay</p>
+    <h2>Same home, same dates, one fewer fee</h2>
+    <p>A marketplace adds a guest service fee at checkout &mdash; Airbnb publishes it as 14.1%–16.5% of the booking subtotal. Ours is 4%, which is 10.1–12.5 percentage points of the booking you keep. Here is exactly what changes when you book on this site instead.</p>
+  </div>
+  
+</div>
+    <div class="grid g-2">
+      <div class="reveal" style="border-top:1px solid var(--border);padding-top:var(--space-5)">
+        <h3 style="font-size:var(--text-base);font-family:var(--font-body);font-weight:700">4% booking fee, not 14.1–16.5%</h3>
+        <p class="small" style="margin-top:var(--space-3);max-width:46ch">Marketplaces add a guest service fee at checkout — Airbnb publishes a range of 14.1–16.5% of the booking subtotal. Ours is 4% of the nightly rate plus the cleaning fee, which is 10.1–12.5 percentage points of the booking that stays with you. What you pay is the nightly rate, the cleaning fee, applicable taxes, and any add-on you asked for.</p>
+      </div><div class="reveal" style="border-top:1px solid var(--border);padding-top:var(--space-5)">
+        <h3 style="font-size:var(--text-base);font-family:var(--font-body);font-weight:700">One price, itemized before you pay</h3>
+        <p class="small" style="margin-top:var(--space-3);max-width:46ch">Every line is on the page: rate, nights, cleaning, tax, total. Nothing appears at the last step, and nothing is folded into a nightly rate to make a headline number look smaller.</p>
+      </div><div class="reveal" style="border-top:1px solid var(--border);padding-top:var(--space-5)">
+        <h3 style="font-size:var(--text-base);font-family:var(--font-body);font-weight:700">You are talking to the company that manages the home</h3>
+        <p class="small" style="margin-top:var(--space-3);max-width:46ch">Not a listing platform passing a message to a host. The same people who write the listing hold the keys, so a question about the house has one answer and one person behind it.</p>
+      </div><div class="reveal" style="border-top:1px solid var(--border);padding-top:var(--space-5)">
+        <h3 style="font-size:var(--text-base);font-family:var(--font-body);font-weight:700">The policies are published in full</h3>
+        <p class="small" style="margin-top:var(--space-3);max-width:46ch">Cancellation terms, house rules and what happens if something breaks are written on the page before you book, in plain language, not summarized into a tier name.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-sunk" id="savings-calculator">
+  <div class="wrap">
+    <div class="section-head reveal">
+  <div>
+    <p class="eyebrow">Do the arithmetic yourself</p>
+    <h2>What the fees cost, on both sides</h2>
+    <p>Put in a nightly rate and a length of stay. It applies Airbnb's own published fee range on one side and our 4% booking fee on the other, and shows you the difference — with the sources next to it.</p>
+  </div>
+  
+</div>
+    <div class="calc" data-calc="savings" data-fee-min="14.1" data-fee-max="16.5" data-our-fee="4">
+      <div class="calc-panel reveal">
+        
+        <div class="calc-row calc-row-split">
+          <span>
+            <label for="calc-rate">Nightly rate</label>
+            <input class="input" id="calc-rate" type="number" min="0" step="1" value="300" data-c-rate inputmode="numeric">
+          </span>
+          <span>
+            <label for="calc-clean">Cleaning fee</label>
+            <input class="input" id="calc-clean" type="number" min="0" step="1" value="150" data-c-clean inputmode="numeric">
+          </span>
+        </div>
+        <div class="calc-row">
+          <label for="calc-nights">Length of stay &mdash; <span data-c-nights-out class="muted">4 nights</span></label>
+          <input id="calc-nights" type="range" min="1" max="30" value="4" step="1" data-c-nights>
+        </div>
+        <dl class="result">
+          <div class="result-line"><dt>Accommodation subtotal</dt><dd data-o-subtotal></dd></div>
+          <div class="result-line"><dt>Cleaning</dt><dd data-o-clean></dd></div>
+          <div class="result-line"><dt>Booking subtotal</dt><dd data-o-base></dd></div>
+          <div class="result-line strike"><dt>Airbnb guest service fee (14.1%&ndash;16.5%)</dt><dd data-o-fee></dd></div>
+          <div class="result-line"><dt>Nomad booking fee (4%)</dt><dd data-o-ours></dd></div>
+        </dl>
+      </div>
+      <div class="reveal">
+        <div class="savings-hero">
+          <span class="label">What you save on fees here</span>
+          <span class="amount" data-o-save>$0</span>
+          <span class="note">Their fee minus ours — 10.1–12.5 percentage points of the booking. A range, because the published fee is a range. Same home, same dates, same cleaning &mdash; see the assumption below.</span>
+        </div>
+        <div class="bar-compare">
+          <div class="bar"><span>Marketplace total</span><span class="track"><span class="fill" data-bar-ota></span></span><span class="val" data-bar-ota-v></span></div>
+          <div class="bar is-nomad"><span>Direct total</span><span class="track"><span class="fill" data-bar-nomad></span></span><span class="val" data-bar-nomad-v></span></div>
+        </div>
+        <div class="methodology">
+  <h3>How this is calculated</h3>
+  <p class="small"><strong>Assumption:</strong> the nightly rate and the cleaning fee are identical on both sides. This compares <em>fees</em>, not prices. If a marketplace listing of the same home is priced differently, the comparison does not hold &mdash; check both totals yourself before you decide.</p>
+  <ul class="method-list">
+    <li><strong>Our own booking fee</strong> &mdash; 4% of the nightly rate plus the cleaning fee, charged by our booking platform and shown as &ldquo;Service fee&rdquo; on the checkout panel. Taken from a real quote on this site on 2026-08-15, not from a rate card. It is the one fee we add, and it is in the total before you reach the card screen.</li>
+    <li><strong>Airbnb guest service fee</strong> &mdash; 14.1%–16.5% of the booking subtotal. This is the range we apply, which is why the result below is a range and not a single number. <a href="https://www.airbnb.com/help/article/1857" rel="nofollow noopener" target="_blank">airbnb.com/help/article/1857</a></li>
+    <li><strong>Vrbo</strong> &mdash; 5% commission plus 3% payment processing, charged on the host side rather than at your checkout. <a href="https://help.vrbo.com/articles/How-is-the-booking-fee-calculated" rel="nofollow noopener" target="_blank">help.vrbo.com</a></li>
+    <li><strong>Booking.com</strong> &mdash; varies by agreement. No universal rate is published, so we do not put a number on it. <a href="https://partner.booking.com/en-us/help/commission-invoices-tax/commission/understanding-our-commission" rel="nofollow noopener" target="_blank">partner.booking.com</a></li>
+    
+  </ul>
+  <p class="tiny">Figures checked 2026-08-07. Taxes are the same either way and are excluded from the comparison.</p>
+</div>
+        <div style="display:flex;gap:var(--space-3);flex-wrap:wrap;margin-top:var(--space-8)">
+          
+          <a class="btn btn-outline" href="/book-direct/">Read the full breakdown</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="map">
+  <div class="wrap wrap-wide">
+    <div class="section-head reveal">
+  <div>
+    <p class="eyebrow">On the map</p>
+    <h2>Exactly where you would be waking up</h2>
+    <p>Approximate locations shown to a block. Exact addresses go out with your confirmation.</p>
+  </div>
+  
+</div>
+    <div class="map-shell reveal">
+  <div class="map" data-map role="application" aria-label="Map of the Nomad portfolio: 2 homes in Evergreen, Colorado and San Diego, California"></div>
+  <p class="map-legend">Click a pin for the home. Where a home publishes a direct rate the pin shows it. Map data &copy; OpenStreetMap contributors.</p>
+</div>
+<noscript><p class="small" style="margin-top:var(--space-3)">The interactive map needs JavaScript. Every home's neighborhood, drive times and walk score are also listed in text on its page.</p></noscript>
+  </div>
+</section>
+
+<section class="section section-sunk" id="founded">
+  <div class="wrap">
+    <div class="split" style="align-items:start">
+      <div>
+        <p class="eyebrow">Founded 2026</p>
+        <h2 style="margin-top:var(--space-4)">Two homes, and everything we know about them</h2>
+        <p class="lede" style="margin-top:var(--space-5);max-width:52ch">Nomad Vacation Rentals LLC was formed in 2026. Holding two homes lets us do something a large portfolio cannot: publish every fact we have on each one, including the parts that cost us bookings. The price has nothing hidden behind it, the house rules and check-in terms are published in full, the card is taken on a PCI-certified checkout we never see, and one named person answers for every decision.</p>
+        <p class="tiny" style="margin-top:var(--space-5)">Nomad Vacation Rentals LLC &middot; formed 2026</p>
+      </div>
+      <div>
+        <p class="eyebrow">What you will not find here, and why</p>
+        <ul class="honest-list" style="margin-top:var(--space-4)">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 8.2v.6"/></svg><span>No reviews until somebody has stayed. Every one will be attached to a booking and published unedited.</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 8.2v.6"/></svg><span>No performance statistics, because there is no operating history to measure.</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 8.2v.6"/></svg><span>No guarantee advertised until one has been drafted and underwritten.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="founder">
+  <div class="wrap">
+    <div class="founder">
+      <div class="founder-mark" aria-hidden="true">SN</div>
+      <div>
+        <p class="eyebrow">Meet your host</p>
+        <h2 style="margin-top:var(--space-4)">Hi, I&rsquo;m Sean</h2>
+        <p class="lede" style="margin-top:var(--space-5);max-width:52ch">I design and develop these homes myself, and I host them myself. When you book here you are dealing with the person who built the house and who answers for it &mdash; the rate, the condition and the policy you are held to.</p>
+        <p class="small" style="margin-top:var(--space-4);max-width:52ch">Sean Normoyle, founder &middot; based in San Diego, California</p>
+        <ul class="founder-facts"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>I designed and developed each of these homes myself</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>You are dealing with me or someone I work with directly, not an agency</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>I formed Nomad Vacation Rentals LLC in 2026 to rent them directly</span></li></ul>
+        <a class="link-arrow" href="/about/" style="margin-top:var(--space-6);display:inline-flex">More about Sean and why Nomad exists <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6.5l5.5 5.5L13 17.5"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-sunk" id="reviews">
+  <div class="wrap">
+    <div class="no-reviews reveal">
+      <span class="no-reviews-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 12.5c0 4-3.6 7.2-8 7.2a9 9 0 01-2.6-.4L5 21l1.3-3.5A6.9 6.9 0 014 12.5c0-4 3.6-7.2 8-7.2s8 3.2 8 7.2z"/></svg></span>
+      <h2>What we publish instead of reviews</h2>
+      <p class="lede">Nobody has stayed yet, so there is nothing to quote, and every review we ever publish will be attached to a booking and left unedited. Meanwhile there are four things on this site you can check yourself before you pay anything.</p>
+      <ul class="honest-list" style="margin-top:var(--space-5);text-align:left">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11.3 3.6H19a1.4 1.4 0 011.4 1.4v7.7L11.6 21a1.4 1.4 0 01-2 0l-6.6-6.6a1.4 1.4 0 010-2z"/><circle cx="16.2" cy="7.8" r="1.5"/></svg><span>The all-in total, itemized, before the payment step &mdash; not a nightly rate that grows at checkout.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 8.2v.6"/></svg><span>The marketplace fee arithmetic, with each figure linked to the marketplace&rsquo;s own published schedule.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4.8" y="10.5" width="14.4" height="10" rx="2"/><path d="M8.4 10.5V7.8a3.6 3.6 0 017.2 0v2.7"/></svg><span>Check-in times and house rules written out in full on the home&rsquo;s own page, not summarized.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 12.5c0 4-3.6 7.2-8 7.2a9 9 0 01-2.6-.4L5 21l1.3-3.5A6.9 6.9 0 014 12.5c0-4 3.6-7.2 8-7.2s8 3.2 8 7.2z"/></svg><span>What each house is not: the stairs, the cameras, the road in. Published before you book rather than explained afterward.</span></li>
+      </ul>
+      <div class="no-reviews-actions">
+        <a class="btn btn-outline" href="/book-direct/">See how the pricing works</a>
+        <a class="btn btn-outline" href="/about/">Who is behind this</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="policies">
+  <div class="wrap">
+    <div class="section-head reveal">
+  <div>
+    <p class="eyebrow">Published, not summarized</p>
+    <h2>The terms, before you book</h2>
+    <p>Nothing below is behind a checkbox at checkout. If a policy changes, it changes here first.</p>
+  </div>
+  
+</div>
+    <div class="grid g-2">
+      <div class="policy reveal">
+        <h3>How pricing works</h3>
+        <p class="small">You are quoted the nightly rate, the cleaning fee, applicable lodging tax and any add-on you selected. 4% booking fee, not 14.1–16.5% is added at any step, and the nightly rate is not raised to absorb one.</p>
+        
+        
+      </div><div class="policy reveal">
+        <h3>Payment and security</h3>
+        <p class="small">Payment is taken over TLS on the PCI-certified checkout our booking platform provides. Nomad never sees, handles or stores your card number. Which company appears as the merchant on your statement depends on the platform plan the home is on, and it is named on your confirmation.</p>
+        <p class="tiny"><a href="https://help.hospitable.com/en/articles/14631693-fraud-protection-and-chargebacks-for-direct-bookings" rel="nofollow noopener" target="_blank">Source: help.hospitable.com/en/articles/14631693-fraud-protection-and-chargebacks-for-direct-bookings</a></p>
+        
+      </div><div class="policy reveal">
+        <h3>Cancellation</h3>
+        <p class="small">Cancellation terms are set per home and printed in full on that home's page and in your confirmation email. There is no tier name to decode — you will see the dates and the amounts.</p>
+        
+        <p class="tiny">Until a home is published, its terms are not final and are not shown.</p>
+      </div><div class="policy reveal">
+        <h3>House rules</h3>
+        <p class="small">Every home publishes its own rules — occupancy, quiet hours, pets, events, parking — on its page, before booking rather than after arrival.</p>
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap wrap-wide">
+    <div class="section-head reveal">
+  <div>
+    <p class="eyebrow">The Journal</p>
+    <h2>Local knowledge, written by people who live here</h2>
+    <p>Show logistics, shoulder-season math, and the honest version of the book-direct argument with the sources attached.</p>
+  </div>
+  <a class="link-arrow" href="/blog/">All articles <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6.5l5.5 5.5L13 17.5"/></svg></a>
+</div>
+    <div class="grid g-3">
+      <article class="card reveal">
+        
+        <div class="card-body">
+          <p class="card-kicker">Local know-how · 8 min read</p>
+          <h3><a href="/blog/red-rocks-concert-guide/">The Red Rocks Show Night Guide We Give Our Own Guests</a></h3>
+          <p class="small">Where to park, when to leave, what the rock does to the temperature, and why staying in Evergreen usually beats staying in Denver.</p>
+          <div class="card-foot"><span class="small">Nomad Vacation Rentals</span><span class="tiny">June 18, 2026</span></div>
+        </div>
+      </article><article class="card reveal">
+        
+        <div class="card-body">
+          <p class="card-kicker">Book direct · 7 min read</p>
+          <h3><a href="/blog/book-direct-vs-airbnb/">What the OTA Fee Actually Costs You — With the Numbers</a></h3>
+          <p class="small">A guest service fee, a host commission and a payment margin. Here is where each one lands, using each platform's own published figures.</p>
+          <div class="card-foot"><span class="small">Nomad Vacation Rentals</span><span class="tiny">March 11, 2026</span></div>
+        </div>
+      </article><article class="card reveal">
+        
+        <div class="card-body">
+          <p class="card-kicker">Itineraries · 7 min read</p>
+          <h3><a href="/blog/evergreen-winter-weekend/">A Perfect Evergreen Winter Weekend, Hour by Hour</a></h3>
+          <p class="small">Snowshoes at nine, green chile at one, hot tub under Orion at ten. A two-night itinerary built from what our guests actually do.</p>
+          <div class="card-foot"><span class="small">Nomad Vacation Rentals</span><span class="tiny">January 22, 2026</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-sunk">
+  <div class="wrap">
+    <div class="split">
+      <div class="reveal">
+        <p class="eyebrow">Own a home in one of our markets?</p>
+        <h2 style="margin-top:var(--space-4)">We are building the portfolio now. Tell us about your house.</h2>
+        <p class="lede" style="margin-top:var(--space-5)">Full-service management with a direct-booking page for your home built in. We will not quote you a fee or a revenue number before we have seen the property — the estimator below runs entirely on figures you supply, so you can see the arithmetic rather than a forecast.</p>
+        <div style="display:flex;gap:var(--space-3);flex-wrap:wrap;margin-top:var(--space-6)">
+          <a class="btn btn-primary" href="/owners/free-property-evaluation/">Request an evaluation</a>
+          <a class="btn btn-outline" href="/owners/rental-income-calculator/">Open the estimator</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="section band">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <p class="eyebrow" style="color:var(--clay-light)">Direct Rate Drop</p>
+        <h2 style="margin-top:var(--space-4)">Get the rate drops before the marketplaces do</h2>
+        <p style="margin-top:var(--space-5);max-width:46ch">One email a month: the homes with unsold gaps in the next 60 days, at the rate we would rather fill them at than hold. No listicles.</p>
+      </div>
+      <div>
+        <form class="signup" data-form="newsletter" name="newsletter" method="POST" novalidate><p class="hp" aria-hidden="true" hidden style="position:absolute!important;left:-9999px!important;top:auto!important;width:1px!important;height:1px!important;overflow:hidden!important"><label>Leave this field empty<input name="bot-field" tabindex="-1" autocomplete="off" style="position:absolute!important;left:-9999px!important"></label></p>
+          <label class="sr-only" for="nl-email">Email address</label>
+          <input id="nl-email" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+          <button class="btn btn-on-dark" type="submit">Send it to me</button>
+          <p class="form-status" data-form-status role="status"></p>
+        </form>
+        <p class="form-note">Unsubscribe in one click. We never sell or share your address, and we do not email more than monthly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap wrap-wide">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo"><img class="logo-badge" src="/assets/img/brand/nomad-badge-256.webp" width="40" height="40" alt="" aria-hidden="true" decoding="async" fetchpriority="high"><span class="logo-word">Nomad<small>Vacation Rentals</small></span></span>
+        <p class="brand-strapline"><span>Colorado · California</span><span>Mountain &amp; coastal properties</span></p>
+        <p>Independent, owner-operated vacation rentals across Colorado and California. Booked directly from the company that manages them, with one 4% booking fee instead of the 14.1–16.5% a marketplace adds.</p>
+        <div class="footer-contact">
+          
+          <a href="mailto:normoyle.realestate@gmail.com">normoyle.realestate@gmail.com</a>
+          <a href="tel:+16194932499">Help: +1 619-493-2499</a>
+          <span style="color:rgba(231,222,209,.62)">Or use the <a href="/contact/" style="color:inherit;text-decoration:underline">contact form</a>.</span>
+        </div>
+        <div class="footer-badges">
+          <span class="footer-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11.3 3.6H19a1.4 1.4 0 011.4 1.4v7.7L11.6 21a1.4 1.4 0 01-2 0l-6.6-6.6a1.4 1.4 0 010-2z"/><circle cx="16.2" cy="7.8" r="1.5"/></svg> 4% booking fee, not 14.1–16.5%</span>
+          <span class="footer-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4.8" y="10.5" width="14.4" height="10" rx="2"/><path d="M8.4 10.5V7.8a3.6 3.6 0 017.2 0v2.7"/></svg> Your card never touches this site</span>
+          <span class="footer-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 8.2v.6"/></svg> Founded 2026</span>
+        </div>
+      </div>
+      <nav aria-labelledby="f-destinations">
+        <h2 id="f-destinations">Destinations</h2>
+        <ul><li><a href="/stays/co/evergreen/">Evergreen, CO</a></li><li><a href="/stays/ca/san-diego/">San Diego, CA</a></li><li><a href="/guides/co/denver/">Denver, CO</a></li><li><a href="/guides/ca/coronado/">Coronado, CA</a></li><li><a href="/near/red-rocks-amphitheatre/">Near Red Rocks</a></li><li><a href="/stays/">All stays</a></li></ul>
+      </nav><nav aria-labelledby="f-homes">
+        <h2 id="f-homes">Homes</h2>
+        <ul><li><a href="/homes/stargazing-a-frame-evergreen/">Stargazing A-Frame</a></li><li><a href="/homes/mission-bay-coastal-house/">Mission Bay Coastal House</a></li><li><a href="/portfolio/">The portfolio</a></li><li><a href="/stays/">Search all 2 homes</a></li></ul>
+      </nav><nav aria-labelledby="f-collections">
+        <h2 id="f-collections">Collections</h2>
+        <ul><li><a href="/collections/mountain-escapes/">Mountain Escapes</a></li><li><a href="/collections/coastal/">Coastal &amp; Beach Walk</a></li></ul>
+      </nav><nav aria-labelledby="f-company">
+        <h2 id="f-company">Company</h2>
+        <ul><li><a href="/book-direct/">Why book direct</a></li><li><a href="/about/">About Nomad</a></li><li><a href="/owners/">For owners</a></li><li><a href="/owners/rental-income-calculator/">Rental income calculator</a></li><li><a href="/blog/">Journal</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/contact/">Contact</a></li><li><a href="/guest-portal/">Guest portal</a></li></ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Nomad Vacation Rentals LLC. All rights reserved. Not affiliated with Airbnb, Vrbo or Booking.com.</span>
+      <nav aria-label="Legal">
+        <a href="/sitemap-html/">Site index</a>
+        <a href="/sitemap.xml">XML sitemap</a>
+        <a href="/faq/">Guest policies</a>
+        <a href="/contact/">Accessibility</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/sms-terms/">SMS terms</a>
+      </nav>
+      
+    </div>
+  </div>
+</footer>
+
+<button class="concierge-launch" type="button" aria-label="Ask the concierge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg><span>Ask the concierge</span></button>
+<aside class="concierge" data-open="false" aria-label="Nomad concierge">
+  <div class="concierge-head">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg>
+    <span class="who"><strong>Find a home</strong><span>Routes you to the right page or filter</span></span>
+    <button class="icon-btn" type="button" data-concierge-close aria-label="Close concierge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <div class="concierge-body">
+    <div class="bubble bubble-bot">Tell me what you are looking for and I will take you to the right page. I do not answer questions about a specific house — every fact about a home lives on that home&rsquo;s own page, where it can be checked.</div>
+  </div>
+  <div class="concierge-suggests">
+    <button type="button" data-q="0">Show me homes with a hot tub</button><button type="button" data-q="1">Which places do you cover?</button><button type="button" data-q="2">How does booking direct save money?</button><button type="button" data-q="3">I own a home and want it managed</button><button type="button" data-q="4">What is your cancellation policy?</button><button type="button" data-q="5">Show me pet-friendly homes</button>
+  </div>
+  <p class="demo-note">This panel only navigates. It links to filters and pages; it does not describe homes, quote availability or answer for a property.</p>
+</aside>
+
+<script type="application/json" id="page-data">{"places":[{"name":"Evergreen, CO","kind":"market","sub":"1 home · Front Range Foothills","url":"/stays/co/evergreen/","only":"/homes/stargazing-a-frame-evergreen/","keywords":"Thirty minutes from Denver. A world away from it."},{"name":"Upper Bear Creek — Evergreen","kind":"neighborhood","sub":"Neighborhood","url":"/stays/co/evergreen/upper-bear-creek/","only":"/homes/stargazing-a-frame-evergreen/","keywords":"The valley west of Evergreen Lake, where Bear Creek runs upstream into Clear Creek County and the lots turn to wooded acreage."},{"name":"San Diego, CA","kind":"market","sub":"1 home · Southern California Coast","url":"/stays/ca/san-diego/","only":"/homes/mission-bay-coastal-house/","keywords":"Seventy miles of coast and a 70-degree year."},{"name":"Red Rocks Amphitheatre","kind":"poi","sub":"Near · Morrison, CO","url":"/near/red-rocks-amphitheatre/","keywords":"Homes 25–30 minutes from Red Rocks Amphitheatre in Evergreen, Morrison and Denver. Book direct with Nomad Vacation Rentals — one 4% booking fee instead of the 14.1–16.5% a marketplace adds, plus real show-night logistics advice."},{"name":"Mountain Escapes","kind":"collection","sub":"Collection · 1 home","url":"/collections/mountain-escapes/","only":"/homes/stargazing-a-frame-evergreen/","keywords":"Woodsmoke, hot water, and enough elevation that your phone stops mattering."},{"name":"Coastal & Beach Walk","kind":"collection","sub":"Collection · 1 home","url":"/collections/coastal/","only":"/homes/mission-bay-coastal-house/","keywords":"Homes where the whole plan is to leave the car parked."},{"name":"Stargazing A-Frame","kind":"home","sub":"Home · Evergreen, CO","url":"/homes/stargazing-a-frame-evergreen/","keywords":"A log-sided A-frame on a private wooded acre, deep in lodgepole pine at 8,957 feet."},{"name":"Mission Bay Coastal House","kind":"home","sub":"Home · San Diego, CA","url":"/homes/mission-bay-coastal-house/","keywords":"A single-story coastal house near Mission Bay with a heated saltwater pool, a spa and an outlook over the bay."}],"searchUrl":"/search/","otaFees":{"airbnbGuestServiceFee":{"value":{"minPct":14.1,"maxPct":16.5,"label":"14.1%–16.5% of the booking subtotal"},"source":"https://www.airbnb.com/help/article/1857","confirmed":"2026-08-07"}},"ourFee":{"pct":4,"basis":"the nightly rate plus the cleaning fee","charged":true,"known":true},"sample":false,"pageType":"home","calcProperties":[],"concierge":[{"q":"Show me homes with a hot tub","route":"/stays/?facets=hot-tub","a":"Filtering the portfolio to homes that list a hot tub."},{"q":"Which places do you cover?","route":"/portfolio/","a":"Opening the portfolio page, which lists every destination we cover."},{"q":"How does booking direct save money?","route":"/book-direct/","a":"Opening the direct-booking page, with the published marketplace fee figures and their sources."},{"q":"I own a home and want it managed","route":"/owners/","a":"Opening the owners page and the income estimator."},{"q":"What is your cancellation policy?","route":"/faq/","a":"Opening the FAQ, where the policy structure is written out."},{"q":"Show me pet-friendly homes","route":"/stays/?facets=pet-friendly","a":"Filtering the portfolio to homes that allow dogs."}],"map":{"lat":36.1875,"lng":-111.31049999999999,"zoom":5,"points":[{"lat":39.568,"lng":-105.408,"approx":true,"name":"Stargazing A-Frame","meta":"Evergreen, CO · sleeps 10","url":"/homes/stargazing-a-frame-evergreen/","img":"/assets/img/af-exterior-480.webp"},{"lat":32.807,"lng":-117.213,"approx":true,"name":"Mission Bay Coastal House","meta":"San Diego, CA · sleeps 14","url":"/homes/mission-bay-coastal-house/","img":"/assets/img/sd-pool-dusk-480.webp"}]}}</script>
+</body>
+</html>
